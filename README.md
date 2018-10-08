@@ -45,3 +45,25 @@ https://medium.com/@suchydan/how-to-solve-google-play-services-version-collision
 - In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split methods of String. This chapter describes JavaScript regular expressions.
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+## 4. Load data from url host: http://acb:3000/image.jpg ("abc")
+- open Info.plist and add code : 
+```swift
+<key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>abc</key>. // change this
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSTemporaryExceptionMinimumTLSVersion</key>
+                <string>TLSv1.1</string>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+```
