@@ -46,7 +46,7 @@ https://medium.com/@suchydan/how-to-solve-google-play-services-version-collision
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
-## 4. Load data from url host: http://acb:3000/image.jpg ("abc")
+## 4. Load data from url host ios: http://acb:3000/image.jpg ("abc")
 - open Info.plist and add code : 
 ```swift
 <key>NSAppTransportSecurity</key>
@@ -67,3 +67,50 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expression
         </dict>
     </dict>
 ```
+
+## 5. Sign apk release
+- 1: create file jks by android studio at app/
+- 2: change app/build.gradle
+
+```java
+defaultConfig {
+....
+// add this
+         signingConfigs {
+                release {
+                    if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                        storeFile file(MYAPP_RELEASE_STORE_FILE)
+                        storePassword MYAPP_RELEASE_STORE_PASSWORD
+                        keyAlias MYAPP_RELEASE_KEY_ALIAS
+                        keyPassword MYAPP_RELEASE_KEY_PASSWORD
+                    }
+                }
+              }
+
+    }
+    
+    // add this
+    buildTypes {
+        release {
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
+        }
+    }
+```
+- 3: change gradle.properties
+```java
+android.useDeprecatedNdk=true
+MYAPP_RELEASE_STORE_FILE=file.jks
+MYAPP_RELEASE_KEY_ALIAS=key0
+MYAPP_RELEASE_STORE_PASSWORD= ***
+MYAPP_RELEASE_KEY_PASSWORD= ***
+```
+
+- 4 run cmd:
+```sh
+ $ cd android
+ $ ./gradlew assembleRelease
+```
+
+
