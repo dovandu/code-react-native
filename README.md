@@ -113,4 +113,10 @@ MYAPP_RELEASE_KEY_PASSWORD= ***
  $ ./gradlew assembleRelease
 ```
 
+## 6.[TextInput] When maxLength is full automatically focus next field 
+https://github.com/facebook/react-native/issues/5617
+
+## 7. React native keyboard bar
+https://medium.com/@nhancv/react-native-keyboard-bar-b4af07434b6a
+
 
