@@ -119,4 +119,7 @@ https://github.com/facebook/react-native/issues/5617
 ## 7. React native keyboard bar
 https://medium.com/@nhancv/react-native-keyboard-bar-b4af07434b6a
 
+## 8. Toast android and ios
+https://github.com/remobile/react-native-toast.git
+
 
