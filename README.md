@@ -122,7 +122,8 @@ https://medium.com/@nhancv/react-native-keyboard-bar-b4af07434b6a
 ## 8. Toast android and ios
 https://github.com/remobile/react-native-toast.git
 
-## 9. Animation example
-https://github.com/joeyschroeder/react-native-simple-animations
+## 9. Animation 
+- example: https://github.com/joeyschroeder/react-native-simple-animations
+- lib: https://github.com/oblador/react-native-animatable
 
 
