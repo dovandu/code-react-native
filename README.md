@@ -126,4 +126,9 @@ https://github.com/remobile/react-native-toast.git
 - example: https://github.com/joeyschroeder/react-native-simple-animations
 - lib: https://github.com/oblador/react-native-animatable
 
+## 10. custom keyboar
+https://github.com/douglasjunior/react-native-keyboard-manager
+https://github.com/ardaogulcan/react-native-keyboard-accessory
+
+
 
