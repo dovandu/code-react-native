@@ -130,5 +130,9 @@ https://github.com/remobile/react-native-toast.git
 https://github.com/douglasjunior/react-native-keyboard-manager
 https://github.com/ardaogulcan/react-native-keyboard-accessory
 
+## 11: Iphone Helper
+https://github.com/sameer-ahmed/react-native-iphone-types-helper
+https://github.com/ptelad/react-native-iphone-x-helper#readme
+
 
 
