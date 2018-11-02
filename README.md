@@ -134,5 +134,8 @@ https://github.com/ardaogulcan/react-native-keyboard-accessory
 https://github.com/sameer-ahmed/react-native-iphone-types-helper
 https://github.com/ptelad/react-native-iphone-x-helper#readme
 
+## 12: GREAT ON EVERY DEVICE
+https://blog.solutotlv.com/size-matters/
+
 
 
