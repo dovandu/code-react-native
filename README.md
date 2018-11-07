@@ -137,5 +137,8 @@ https://github.com/ptelad/react-native-iphone-x-helper#readme
 ## 12: GREAT ON EVERY DEVICE
 https://blog.solutotlv.com/size-matters/
 
+## 13: react-native-render-html
+https://github.com/archriss/react-native-render-html
+
 
 
