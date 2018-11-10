@@ -140,5 +140,9 @@ https://blog.solutotlv.com/size-matters/
 ## 13: react-native-render-html
 https://github.com/archriss/react-native-render-html
 
+## 14: How_to_add_Firebase_Auth_with_react_native
+
+https://github.com/g6ling/React-Native-Tips/tree/master/How_to_add_Firebase_Auth_with_react_native
+
 
 
