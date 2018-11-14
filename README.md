@@ -150,12 +150,13 @@ https://github.com/g6ling/React-Native-Tips/tree/master/How_to_add_Firebase_Auth
 focus on locationX, locationY, PageX and PageY.
 
 You can use console for log to see position you are tap on model view.
-
+```javascrip
 onPanResponderGrant: (evt, gestureState) => {
        if(event.nativeEvent.locationY !==event.nativeEvent.pageY){
 this.setState({visible:false})
 }
       },
+```
 For more information, check here: https://www.youtube.com/watch?v=HzpuBZK3Ef0
 
 
