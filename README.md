@@ -144,5 +144,19 @@ https://github.com/archriss/react-native-render-html
 
 https://github.com/g6ling/React-Native-Tips/tree/master/How_to_add_Firebase_Auth_with_react_native
 
+## 15: Click outside modal to close:
+
+@mmazzarolo : Check this link first: https://facebook.github.io/react-native/docs/panresponder.html.
+focus on locationX, locationY, PageX and PageY.
+
+You can use console for log to see position you are tap on model view.
+
+onPanResponderGrant: (evt, gestureState) => {
+       if(event.nativeEvent.locationY !==event.nativeEvent.pageY){
+this.setState({visible:false})
+}
+      },
+For more information, check here: https://www.youtube.com/watch?v=HzpuBZK3Ef0
+
 
 
