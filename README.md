@@ -166,5 +166,5 @@ For more information, check here: https://www.youtube.com/watch?v=HzpuBZK3Ef0
     
     this.refs.ABC.getWrappedInstance().refs['selector'].focus();
 ```
-
-
+## 16. collapsible-navbar (scroll expand collapse show hide toolbar react native)
+https://github.com/janicduplessis/collapsible-navbar
