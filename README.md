@@ -168,3 +168,4 @@ For more information, check here: https://www.youtube.com/watch?v=HzpuBZK3Ef0
 ```
 ## 16. collapsible-navbar (scroll expand collapse show hide toolbar react native)
 https://github.com/janicduplessis/collapsible-navbar
+https://medium.com/@andi.gu.ca/a-collapsing-navbar-with-tabs-in-react-native-e80790588830
