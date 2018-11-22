@@ -172,5 +172,6 @@ https://medium.com/@andi.gu.ca/a-collapsing-navbar-with-tabs-in-react-native-e80
 
 ## 17: React-Native iOS - How can I navigate to a non-React-Native view (native iOS view controller) from a React-Native view with a button press?
 https://stackoverflow.com/a/46007680
+https://blog.bam.tech/developper-news/react-native-inside-native-apps-the-navigation-challenge
 
 ## 18. Animation : https://animationbook.codedaily.io/introduction/
