@@ -173,5 +173,34 @@ https://medium.com/@andi.gu.ca/a-collapsing-navbar-with-tabs-in-react-native-e80
 ## 17: React-Native iOS - How can I navigate to a non-React-Native view (native iOS view controller) from a React-Native view with a button press?
 https://stackoverflow.com/a/46007680
 https://blog.bam.tech/developper-news/react-native-inside-native-apps-the-navigation-challenge
+```objec-c
+Yes this possible you can do by making application window root UINavigationController rather than UIViewController.
+You need to make below changes in appDelegate.m
+NSURL *jsCodeLocation;
+
+jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+
+RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+moduleName:@"projectName"
+initialProperties:nil
+launchOptions:launchOptions];
+rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
+
+self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+UIViewController *rootViewController = [UIViewController new];
+UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+rootViewController.view = rootView;
+self.window.rootViewController = navigationController;
+navigationController.navigationBar.hidden = YES;
+[self.window makeKeyAndVisible];
+
+then pass call back to native code in any native class and push by below code
+dispatch_async(dispatch_get_main_queue(), ^{
+AppDelegate app = (AppDelegate)[[UIApplication sharedApplication] delegate];
+MYViewController *dd = [[MYViewController alloc]init];
+
+[((UINavigationController*)app.window.rootViewController) pushViewController:dd animated:YES];
+});
+```
 
 ## 18. Animation : https://animationbook.codedaily.io/introduction/
