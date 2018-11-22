@@ -173,7 +173,7 @@ https://medium.com/@andi.gu.ca/a-collapsing-navbar-with-tabs-in-react-native-e80
 ## 17: React-Native iOS - How can I navigate to a non-React-Native view (native iOS view controller) from a React-Native view with a button press?
 https://stackoverflow.com/a/46007680
 https://blog.bam.tech/developper-news/react-native-inside-native-apps-the-navigation-challenge
-```objec-c
+```swift
 Yes this possible you can do by making application window root UINavigationController rather than UIViewController.
 You need to make below changes in appDelegate.m
 NSURL *jsCodeLocation;
