@@ -212,3 +212,6 @@ MYViewController *dd = [[MYViewController alloc]init];
 - https://github.com/lintonye/react-native-diary
 - https://github.com/fram-x/FluidTransitions#readme
 - https://github.com/plmok61/react-navigation-transitions#readme
+
+## 21. Keyboard placement (chat emoiji)
+- https://github.com/shimohq/react-native-keyboard-view#readme
