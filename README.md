@@ -33,6 +33,44 @@ class Drawer extends Component {
 }
 ```
 
+- How disable drawer on current window:
+
+```javascript
+    constructor(props) {
+        super(props);
+        this.props.navigator.setOnNavigatorEvent(
+            this.onNavigatorEvent.bind(this)
+        );
+    }
+
+    // If this screen was the first screen app (like a slash or login page), you will need do this
+    // componentWillMount() {
+    //     this.props.navigator.setDrawerEnabled({
+    //          side: "left",
+    //          enabled: false
+    //      });
+    // }
+
+    onNavigatorEvent(event) {
+        switch (event.id) {
+            case "willAppear":
+                // On enter on this screen, enable the drawer
+                this.props.navigator.setDrawerEnabled({
+                    side: "left",
+                    enabled: false
+                });
+                break;
+            case "willDisappear":
+                // On leave from this screen, enable the drawer
+                this.props.navigator.setDrawerEnabled({
+                    side: "left",
+                    enabled: true
+                });
+                break;
+        }
+    }
+```
+
 Or you can also wrap each screen with HOC and pass navigation prop to it from somewhere and pass to your screens.
 
 ## 2. fix bug : How to solve Google Play Services version collision in gradle dependencies
