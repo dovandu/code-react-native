@@ -253,3 +253,24 @@ MYViewController *dd = [[MYViewController alloc]init];
 
 ## 21. Keyboard placement (chat emoiji)
 - https://github.com/shimohq/react-native-keyboard-view#readme
+
+## 22: bug google sigin android
+
+```sh
+WRONG SIGNIN Error: DEVELOPER_ERROR at new GoogleSigninError (GoogleSignin.android.js:53) at GoogleSignin.android.js:129 at RCTDeviceEventEmitter.emit (EventEmitter.js:181) at MessageQueue.__callFunction (MessageQueue.js:242) at MessageQueue.js:108 at guard (MessageQueue.js:46) at MessageQueue.callFunctionReturnFlushedQueue (MessageQueue.js:107) at debuggerWorker.js:71
+```
+- fix:
+
+```sh
+same here - anyone solved the problem?
+
+EDIT:
+Duh - Don't forget to add the SHA-1 of your debug keystore to firebase.
+
+keytool -exportcert -list -v \
+-alias androiddebugkey -keystore ~/.android/debug.keystore
+https://developers.google.com/android/guides/client-auth
+
+https://stackoverflow.com/questions/40088741/google-sign-in-error-statusstatuscode-developer-error-resolution-null
+
+```
