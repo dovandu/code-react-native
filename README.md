@@ -269,8 +269,10 @@ Duh - Don't forget to add the SHA-1 of your debug keystore to firebase.
 
 keytool -exportcert -list -v \
 -alias androiddebugkey -keystore ~/.android/debug.keystore
+
+
+```
+
 https://developers.google.com/android/guides/client-auth
 
 https://stackoverflow.com/questions/40088741/google-sign-in-error-statusstatuscode-developer-error-resolution-null
-
-```
