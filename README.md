@@ -199,6 +199,9 @@ For more information, check here: https://www.youtube.com/watch?v=HzpuBZK3Ef0
 
 ## 15. get refs when component connect redux:
 
+- children ref = 'ABC'
+- children of children ref = 'selector'
+
 ```sh
     connect(mapStateToProps, null, null, { withRef: true })(Component)
     
