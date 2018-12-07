@@ -243,7 +243,9 @@ MYViewController *dd = [[MYViewController alloc]init];
 
 ## 18. Animation : https://animationbook.codedaily.io/introduction/
 
-## 19. Push Notification for React Native: https://medium.com/google-cloud/push-notification-for-react-native-bef05ea4d1d0
+## 19. Push Notification for React Native: 
+- Xcode setup: https://medium.com/google-cloud/push-notification-for-react-native-bef05ea4d1d0
+- Acc developer setup: https://medium.com/@ankushaggarwal/generate-apns-certificate-for-ios-push-notifications-85e4a917d522
 
 ## 20. transitionconfig react navigation fast: 
 
