@@ -1,7 +1,8 @@
 # code-react-native: https://github.com/ReactNativeNews/React-Native-Apps
 
 ## react-native-navigation :
-- exmaple: https://github.com/birkir/kvikmyndr-app , https://github.com/junedomingo/movieapp
+- exmaple v2: https://github.com/birkir/kvikmyndr-app , https://github.com/junedomingo/movieapp
+- example v2: https://github.com/dabit3/react-native-navigation-v2/tree/Part1
 
 ## 1. fix bug : [iOS] Navigation from drawer doesn't work
 
