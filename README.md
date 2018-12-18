@@ -6,6 +6,7 @@
 - example v2: with redux:https://medium.com/@drorbiran/react-native-navigation-v2-adding-redux-b4fa0c0254d9
 - with drawer+ tab: https://github.com/Vinu-MysteriousTechVision/TestProjectRNNavigationV2/blob/master/Sample3RNNavigationV2/src/Start.js
 - with drawer: 
+- fix icon bottomtab ios: https://github.com/wix/react-native-navigation/issues/1415
 
 ## 1. fix bug : [iOS] Navigation from drawer doesn't work
 
