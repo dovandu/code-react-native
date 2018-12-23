@@ -298,3 +298,6 @@ https://stackoverflow.com/questions/40088741/google-sign-in-error-statusstatusco
 
 https://stackoverflow.com/a/23863110
 
+## 23: geolocation:
+- fix the location timeout issue on android: https://github.com/Agontuk/react-native-geolocation-service
+
