@@ -7,6 +7,14 @@
 - with drawer+ tab: https://github.com/Vinu-MysteriousTechVision/TestProjectRNNavigationV2/blob/master/Sample3RNNavigationV2/src/Start.js
 - with drawer: 
 - fix icon bottomtab ios: https://github.com/wix/react-native-navigation/issues/1415
+- switchToTab
+```javascript
+Navigation.mergeOptions(this.props.componentId, {
+  bottomTabs: {
+    currentTabIndex: 1
+  }
+}
+```
 
 ## 1. fix bug : [iOS] Navigation from drawer doesn't work
 
