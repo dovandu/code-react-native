@@ -310,6 +310,7 @@ https://stackoverflow.com/a/23863110
 
 ## 23: geolocation:
 - fix the location timeout issue on android: https://github.com/Agontuk/react-native-geolocation-service
+- android: https://github.com/Richou/react-native-android-location-enabler
 
 ## 24. Emoiji:
 - emoiji lib: https://github.com/makemoji/Makemoji-React-Native
