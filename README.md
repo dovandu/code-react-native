@@ -1,5 +1,7 @@
 # code-react-native: https://github.com/ReactNativeNews/React-Native-Apps
-
+```sh
+chmod 755 android/gradlew
+```
 ## react-native-navigation :
 - exmaple v2: https://github.com/birkir/kvikmyndr-app , https://github.com/junedomingo/movieapp
 - example v2: https://github.com/dabit3/react-native-navigation-v2/tree/Part1
