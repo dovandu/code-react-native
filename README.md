@@ -317,3 +317,8 @@ https://stackoverflow.com/a/23863110
 ## 24. Emoiji:
 - emoiji lib: https://github.com/makemoji/Makemoji-React-Native
 
+
+## 25: update state type object: 
+- key: Best way to update / change state object in react native?
+- https://stackoverflow.com/a/44208159/10819917
+
