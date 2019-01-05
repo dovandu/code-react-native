@@ -323,7 +323,7 @@ https://stackoverflow.com/a/23863110
 - https://stackoverflow.com/a/44208159/10819917
 
 ## 26: Uninstall ReactNative App - Clean User Data using Asyncstorage 
-```Hi, I've got the same issue and it simply seems to be the direct cause of android's new manifest keyword:
+Hi, I've got the same issue and it simply seems to be the direct cause of android's new manifest keyword:
 <android:allowBackup="true">
-You can find more information on android documentation but quickly it says that app locally saved data might be backed up on Google Drive on the latest versions of Android. You can disable it either by setting <android:allowBackup="false"> (true is the default behavior) or by disabling auto backup in your phone's settings.```
+You can find more information on android documentation but quickly it says that app locally saved data might be backed up on Google Drive on the latest versions of Android. You can disable it either by setting <android:allowBackup="false"> (true is the default behavior) or by disabling auto backup in your phone's settings.
 
