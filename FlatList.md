@@ -1,5 +1,8 @@
-## doc: https://facebook.github.io/react-native/docs/flatlist#docsNav
-## example: https://medium.com/react-native-development/how-to-use-the-flatlist-component-react-native-basics-92c482816fe6
+## Flatlist:
+### doc: https://facebook.github.io/react-native/docs/flatlist#docsNav
+### example: https://medium.com/react-native-development/how-to-use-the-flatlist-component-react-native-basics-92c482816fe6
+### 1. How do you make the ListHeaderComponent of a React Native FlatList sticky?
+-  https://stackoverflow.com/a/48806118/10819917
 
 ```javascript
 import React, { Component } from "react";
