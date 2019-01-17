@@ -18,6 +18,8 @@ Navigation.mergeOptions(this.props.componentId, {
 }
 ```
 
+### styles: https://github.com/vhpoet/react-native-styling-cheat-sheet
+
 ### Item more : https://github.com/mxck/react-native-material-menu
 
 ## 1. fix bug : [iOS] Navigation from drawer doesn't work
