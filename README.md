@@ -333,3 +333,6 @@ You can find more information on android documentation but quickly it says that 
 tab Header : https://snack.expo.io/@satya164/collapsible-header-with-tabview
 - rn-search-bar-animation
 
+## 28: React Native collapsible navbar
+- https://github.com/janicduplessis/collapsible-navbar
+
