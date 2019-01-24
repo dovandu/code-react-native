@@ -134,3 +134,6 @@ class FlatListDemo extends Component {
 
 export default FlatListDemo;
 ```
+
+
+## 1. Mình để cái scrollview bọc bên ngoài Android thì k bị làm bên IOS mình kéo xuống nó cứ hở cái phần trắng thả ra thì lại như bt. Mn cho mình xin cách fix: bounces={false}
