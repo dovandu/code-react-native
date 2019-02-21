@@ -1,3 +1,4 @@
+### fix web: https://github.com/expo/react-native/commit/4129853e83eb3381d8f54a2c8e798039fd254aae
 # code-react-native: https://github.com/ReactNativeNews/React-Native-Apps
 ```sh
 chmod 755 android/gradlew
