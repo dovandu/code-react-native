@@ -1,0 +1,16 @@
+## write log crash react-native release
+### step 1: use try-catch
+### step 2: log non-fatal by crashlytics fabric or firebase
+### step 3: get log from fabric or firebase
+
+
+### all code:
+
+```
+import firebase from 'react-native-firebase';
+const crashlytics = firebase.crashlytics();
+crashlytics.setStringValue('stack', `${error.stack}`);
+    crashlytics.setStringValue('fileName', `${error.fileName}`);
+    crashlytics.setStringValue('lineNumber', `${error.lineNumber}`);
+    crashlytics.recordError(0, `RN Fatal: ${error.message}`);
+```
