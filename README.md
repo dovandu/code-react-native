@@ -1,3 +1,6 @@
+### compress image lib: 
+- https://github.com/facebookincubator/spectrum?fbclid=IwAR3Jm2_1-s2DPgF8RyM9hIlXVCoX2HxBWM-1tvZ_1QHx8EKHePT1mmRe800
+
 ### fix websocket version v.0.55.2: 
 - https://github.com/expo/react-native/commit/4129853e83eb3381d8f54a2c8e798039fd254aae
 # code-react-native: 
