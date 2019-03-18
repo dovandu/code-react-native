@@ -1,3 +1,5 @@
+### laught screen:
+- https://stackoverflow.com/questions/34027270/ios-launch-screen-in-react-native
 ### compress image lib: 
 - https://github.com/facebookincubator/spectrum?fbclid=IwAR3Jm2_1-s2DPgF8RyM9hIlXVCoX2HxBWM-1tvZ_1QHx8EKHePT1mmRe800
 
