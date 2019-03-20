@@ -1,3 +1,6 @@
+### notification sound firebase
+- https://github.com/invertase/react-native-firebase/issues/1176#issuecomment-419642355
+
 ### laught screen:
 - https://stackoverflow.com/questions/34027270/ios-launch-screen-in-react-native
 ### compress image lib: 
